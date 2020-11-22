@@ -10,7 +10,7 @@ if not os.getenv('DEVICE_ID') and \
          "If you're confused, re-watch the tutorial.")
    sys.exit()
    
-os.system('pip install -U SouvloBotPackage')
+os.system('pip install -U SouvloBotPackage==0.0.5')
 os.system('clear')
 
 import SouvloBotPackage
